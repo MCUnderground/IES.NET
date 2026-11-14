@@ -9,6 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Update="1.ies" CopyToOutputDirectory="PreserveNewest" />
     <ProjectReference Include="..\..\src\IES.NET\IES.NET.csproj" />
   </ItemGroup>
 

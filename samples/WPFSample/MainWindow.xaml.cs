@@ -1,5 +1,6 @@
 ﻿using IES.NET.Parsing;
 using IES.NET.Rendering;
+using IES.NET.Options;
 using System.Windows;
 
 namespace WPFSample
@@ -10,9 +11,9 @@ namespace WPFSample
         {
             InitializeComponent();
 
-            var data = new IesParser();
-            var iesData = data.Parse(@"C:\1.IES");
-            IMG.Source = IesBitmapRenderer.RenderToBitmapSource(iesData, new IES.NET.Options.RenderOptions());
+            var iesPath = System.IO.Path.Combine(AppContext.BaseDirectory, "1.ies");
+            var iesData = new IesParser().Parse(iesPath);
+            IMG.Source = IesBitmapRenderer.RenderToBitmapSource(iesData, new RenderOptions());
         }
     }
 }
