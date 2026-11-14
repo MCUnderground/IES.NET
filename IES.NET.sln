@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IES.NET", "src\IES.NET\IES.NET.csproj", "{B335C891-FD02-4ADF-A8DC-2484B8141047}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFSample", "samples\WPFSample\WPFSample.csproj", "{74CA28CB-D619-406B-8969-8F4DC38CEE3E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B335C891-FD02-4ADF-A8DC-2484B8141047}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B335C891-FD02-4ADF-A8DC-2484B8141047}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B335C891-FD02-4ADF-A8DC-2484B8141047}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B335C891-FD02-4ADF-A8DC-2484B8141047}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74CA28CB-D619-406B-8969-8F4DC38CEE3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74CA28CB-D619-406B-8969-8F4DC38CEE3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74CA28CB-D619-406B-8969-8F4DC38CEE3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74CA28CB-D619-406B-8969-8F4DC38CEE3E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {89AB3FF9-654C-43DE-A20F-D3B745C02C70}
+	EndGlobalSection
+EndGlobal
